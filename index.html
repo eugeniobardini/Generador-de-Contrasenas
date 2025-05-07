@@ -1,14 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Generador De Contraseñas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
+        <div class="flex-container">
+            <h1>Generador de contraseñas aleatorias</h1>
+            <p>Cree contraseñas seguras para proteger sus cuentas de internet</p>
+
+            <div class="generador-container">
+                <div class="contenedor-de-contraseña">
+                    <input type="text">
+                </div>
+                <div class="btn-copiar-container">
+                    <a>Copiar</a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>Longitud de la contraseña:</span>
+                <span></span>
+            </div>
+            <div>
+                <button></button>
+                <div>
+                    <input type="range">
+                </div>
+                <button></button>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>Caracteres usados:</span>
+            </div>
+            <div class="caracteres-inputs">
+                <div>
+                    <input type="checkbox" name="" id="ABC">
+                    <label for="ABC">ABC</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="abc">
+                    <label for="abc">abc</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="123">
+                    <label for="123">123</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="#$&">
+                    <label for="#$&">#$&</label>
+                </div>
+            </div>
+        </div>
     </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
