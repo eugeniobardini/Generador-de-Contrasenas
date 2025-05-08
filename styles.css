@@ -43,20 +43,21 @@ p {
 }
 .contenedor-de-contraseÃ±a {
     position: relative;
+    
 }
 #resultado {
-    padding: 0.4rem 4rem;
+    padding: 0.4rem 1rem;
+    width: 27rem;
     border-color: #00d1ff;
     color: #004e5f;
     font-family: sans-serif;
     font-size: 1.1rem;
-    
 }
 
 #btn-refresh {
     position: absolute;
-    left: 316px;
-    top: 10px;
+    left: 404px;
+    top: 11px;
     color: #028baa;
     cursor: pointer;
     transition:all 0.3s ease;
@@ -134,8 +135,6 @@ p {
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3); 
 }
 
-
-
 .container-3 {
     display: flex;
     gap: 3rem;
@@ -171,4 +170,20 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked {
     accent-color: #00d1ff; 
+}
+
+.seguridad-container span {
+    position: absolute;
+    top: 7px;
+    left: 280px;
+    text-align: center;
+    width: 110px;
+    color: #ffff;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-left: 5px;
+    transition: color 0.3s ease;
 }
