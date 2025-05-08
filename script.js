@@ -89,7 +89,10 @@ navigator.clipboard.writeText(contraseña)
 
 // Funcionamiento del boton de refrescar
 const btnRefresh = document.getElementById("btn-refresh");
+let rotation = 0;
 
 btnRefresh.addEventListener("click", () => {
-generarContrasena();
+    generarContrasena();  // Llama a la función de generación de contraseña
+    rotation += 360;  // Aumenta el ángulo de rotación
+    btnRefresh.style.transform = `rotate(${rotation}deg)`;  // Aplica el giro acumulado
 });
